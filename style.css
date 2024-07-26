@@ -1,20 +1,103 @@
 body {
-    background-color: rgb(0, 28, 88);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #2f3c6a;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    font-family: Georgia;
-    text-align: left;
+    padding: 50px;
+    width: 1100px;
+    text-align: center;
+    margin: auto;
+    background-color: #2f3c6a;
+}
+
+.logo {
+    height: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.logowrapper {
+    background-color: #1e284b;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+nav {
+    padding: 5px;
+    background-color: #1e284b;
 }
 
 .headerbutton {
-    background-color: rgb(199, 6, 6);
+    font-size: 10pt;
+    padding: 0px;
+    background-color: #2f3c6a;
     height: 40px;
-    width: 100px;
-    transition-duration: 0.4s;
+    width: 200px;
+    transition-duration: 0.1s;
     cursor: pointer;
 }
 
 .headerbutton:hover {
-    background-color: green;
+    background-color: #3a4e9e;
+}
+
+.subheader {
+    font-size: 20pt;
+    padding: 10px;
+    padding-top: 50px;
+    width: 1000px;
+    text-align: justify;
+    margin: auto;
+}
+
+.group_photo {
+    width: 1000px;
+}
+
+.imgcaption {
+    margin: auto;
+    width: 800px;
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+.subsubheader {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 16pt;
+    width: 1000px;
+    margin: auto;
+}
+
+p {
+    padding-top: 10px;
+    width: 1000px;
+    text-align: justify;
+    margin: auto;
+    font-size: 12pt;
+}
+
+.footer {
+    width: 1200px;
+    min-height: 100px;
+    padding-top: 50px;
+    background-color: #1e284b;
+    font-size: 8pt;
+    margin: auto;
+    background-clip: content-box;
+    text-align: center;
+    margin-top: auto;
+}
+.logo_footer {
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
