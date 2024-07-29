@@ -1,11 +1,15 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #03091d;
     border: 1px solid #2f3c6a;
     width: 1200px;
     margin: auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+}
+
+a:visited {
+    color: #2d5180;
 }
 
 h1 {
@@ -66,7 +70,7 @@ nav {
 }
 /* Links inside the dropdown */
 .memberbuttondropdown a {
-    color: black;
+    color: white;
     text-align: left;
     text-decoration: none;
     display: block;
@@ -124,6 +128,7 @@ p {
 .membertable {
     width: 1000px;
     margin: auto;
+    border-spacing: 40px;
 }
 
 .mtphotocell {
@@ -141,11 +146,18 @@ p {
 }
 
 .mtbiocell {
+    box-sizing: border-box;
     text-align: left;
-    padding-left: 10px;
+    padding: 10px;
     vertical-align: top;
-    padding-top: 0px;
     height: 150px;
+    border-bottom: 1px solid #34363d;
+    background-color: #0b1b52;
+    border-radius: 10px;
+}
+
+.mtbio {
+    color: gainsboro
 }
 
 .footer {
