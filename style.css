@@ -1,6 +1,8 @@
 body {
-    background-color: #03091d;
-    border: 1px solid #2f3c6a;
+    background-color: #121212;
+    /*border: 1px solid #2f3c6a;*/
+    border: 1px solid #7f7f7f;
+    border-bottom: none;
     width: 1200px;
     margin: auto;
     text-align: center;
@@ -21,16 +23,20 @@ h1 {
 }
 
 .logo {
-    height: 100px;
-    padding-left: 5px;
-    padding-right: 5px;
+    width: 425px;
 }
 
 .logowrapper {
     background-color: #1e284b;
-    padding: 10px;
-    margin-top: 6px;
-    margin-bottom: 6px;
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    background-clip: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav {
@@ -175,4 +181,6 @@ p {
     height: 60px;
     padding-top: 10px;
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
