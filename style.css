@@ -10,8 +10,12 @@ body {
     color: white;
 }
 
+a {
+    color: #A0BFF5;
+}
+
 a:visited {
-    color: #2d5180;
+    color: #9E9EFF;
 }
 
 h1 {
