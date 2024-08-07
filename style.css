@@ -18,12 +18,15 @@ a:visited {
     color: #9E9EFF;
 }
 
+@font-face { font-family: dejavu_serif; src: url('dejavu-serif/DejaVuSerifCondensed.ttf'); }
+
 h1 {
     padding: 50px;
     width: 1100px;
     text-align: center;
     margin: auto;
     background-color: #2f3c6a;
+    font-family: dejavu_serif;
 }
 
 .logo {
@@ -106,13 +109,9 @@ nav {
     margin: auto;
 }
 
-.group_photo {
-    width: 1000px;
-}
-
 .imgcaption {
     margin: auto;
-    width: 800px;
+    width: 900px;
     text-align: center;
     font-size: 10pt;
     font-style: italic;
