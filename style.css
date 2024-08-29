@@ -1,12 +1,21 @@
+:root {
+    --background: #ffffff;
+    --text: rgb(0, 0, 0);
+    --profile: #bde1f7;
+    --content: #eff6ff;
+    --border: #d4e7ff;
+}
+
 body {
-    background-color: black;
+    background-color: var(--background);
     border-bottom: none;
-    width: 1200px;
+    width: 1300px;
     margin: auto;
     margin-top: 75px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family:sans-serif;
+    color: var(--text);
 }
 
 .parent {
@@ -16,17 +25,19 @@ body {
 #profilebox {
     width: 380px;
     padding: 20px;
-    background-color: rgb(167, 167, 167);
+    background-color: var(--profile);
     border-radius: 20px;
     max-height: 500px;
 }
 
 #contentbox {
     flex: 1;
-    background-color: rgb(113, 113, 113);
+    background-color: var(--content);
     padding: 20px;
     border-radius: 20px;
+    border-top-left-radius: 0px;
     text-align: left;
+    min-height: 1300px;
 }
 
 .headshot {
@@ -46,20 +57,46 @@ a:visited {
 }
 
 .footer {
-    width: 1200px;
-    min-height: 100%;
+    width: 1300px;
     padding-top: 50px;
-    background-color: black;
     font-size: 8pt;
     margin: auto;
-    background-clip: content-box;
     text-align: center;
-    margin-top: auto;
 }
+
 .logo_footer {
-    height: 80px;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
+    margin: auto;
+    padding: 10px;
+}
+
+.tab-button-container {
+    width: 100px;
+}
+
+.tab-button-selected {
+    height: 50px;
+    width: 100px;
+    border-radius: 0px;
+    border: none;
+    outline: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: var(--content);
+    color: var(--text);
+}
+
+.tab-button-nonselected:hover {
+    background-color: rgb(173, 173, 173);
+}
+
+.tab-button-nonselected {
+    height: 50px;
+    width: 100px;
+    border-radius: 0px;
+    border: none;
+    outline: 0px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: var(--profile);
+    color: var(--text);
 }
