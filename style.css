@@ -81,7 +81,7 @@ a:visited {
     outline: 0px;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    background-color: var(--content);
+    background-color: var(--content);   
     color: var(--text);
 }
 
